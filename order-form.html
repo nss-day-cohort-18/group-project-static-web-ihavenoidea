@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Order Form Page</title>
+</head>
+
+<body>
+	<form action="index.html" method="post">
+        
+		<legend><h1>Order Ducks</h1></legend>
+	        
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="user_name"><br>
+	          
+		<label for="mail">Email:</label>
+		<input type="email" id="mail" name="user_email"><br>
+
+		<label for="phone">Daytime Phone #:</label>
+		<input type="tel" name="user_phone"><br>
+
+		<label for="company-name">Company/Organization name:</label>
+		<input type="text" name="company-name"><br>
+
+		<label for="org-type">How many ducks will you be ordering?</label><br>
+		<input type="radio" name="0-250" value="rock">1 - 250<br>
+		<input type="radio" name="250-500" value="for-profit">250 - 500<br>
+		<input type="radio" name="500-100" value="other">500 - 1,000<br>
+		<input type="radio" name="over1000" value="other">Over 1,000<br>
+		          
+		<label for="job">Order type:</label>
+		<select id="job" name="user_job">
+			<option selected disabled>Order options</option>
+			<option value="reg-order">Order one of our award-winning duck designs</option>
+			<option value="custom-orders">Have us create a one of a kind duck design to meet your needs</option>
+			<option value="customer-design-orders">Submit your own duck design and we will produce your ducks!</option>
+		</select><br>
+
+		<label for="org-type">Organization Type:</label><br>
+		<input type="radio" name="non-profit" value="rock">Non-Profit Organization<br>
+		<input type="radio" name="for-profit" value="for-profit">For Profit Organization<br>
+		<input type="radio" name="other" value="other">Other<br>
+
+		<label for="order-info">Anything else we should know about your order?:</label>
+		<textarea name="user_bio"></textarea><br>
+	         
+		<button type="submit">Submit</button>
+	      
+	</form>
+    
+</body>
+</html>
