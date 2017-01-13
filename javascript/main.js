@@ -49,9 +49,8 @@ var ducks = [
 	}
 ];
 
-var card = document.getElementById("productCard");
-
 for (var i = 0; i < ducks.length; i++) {
+  var card = document.getElementById("productCard" + i);
   var duckName = "<h3>" + ducks[i].name + "</h3";
   card.innerHTML += duckName;
   var duckImage = '<img src="' + ducks[i].URL + '">';
