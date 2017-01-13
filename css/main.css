@@ -248,3 +248,14 @@ footer {
 #footerLogos {
 	padding-top: 0;
 }
+
+/***********************
+MEDIA QUERIES
+***********************/
+
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 660px) {
+}
