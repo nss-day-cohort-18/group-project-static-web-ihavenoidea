@@ -6,6 +6,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	width: 90%;
 	text-align: center;
+	margin:0 auto;
+	background-color: #FFFF00;
 }
 
 div {
@@ -31,42 +33,56 @@ img {
 HEADER
 ***********************/
 
-#headerImage {
-	z-index: -100;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	opacity:0.6;
+div#mainHeader {
+	position: relative;
+}
+
+#headerHeading {
+	z-index: 1;
 }
 
 #headerHeading h1 {
-	z-index: 100;
-	color: white;
+	font-family: Insolente, sans-serif;
+	color: #FF7800;
 	position: absolute;
-	top: 0;
+	top: 30px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	font-size: 1.5em;
+	font-size: 5em;
 	margin-top: 25px;
 }	
 
 #headerHeading h2 {
-	z-index: 100;
-	color: white;
+	font-family: Insolente, sans-serif;
+	color: #FF7800;
 	position: absolute;
-	top: 45px;
+	top: 170px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.3em;
+	font-size: 2em;
 }
+
+#headerImage {
+	z-index: -1;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	/*opacity:0.6;*/
+}
+
+
+/***********************
+NAVIGATION
+***********************/
 
 nav {
   padding: 10px 0;
@@ -80,9 +96,10 @@ nav ul {
 }
 
 nav li {
-  background-color: #AA4C39;
+  background-color: #FF7800;
   margin-bottom: 10px;
   padding: 10px 0;
+  color: white;
 }
 
 /***********************
