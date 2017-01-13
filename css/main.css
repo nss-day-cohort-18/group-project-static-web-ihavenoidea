@@ -48,5 +48,33 @@ INDEX
 ***********************/
 
 /***********************
+ORDER FORM
+***********************/
+
+form input, select {
+  float: auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1em;
+  padding: 1em;
+  margin: 1em;
+
+form input {
+  text-align: center;
+  margin-left: 2em;
+}
+
+button {  
+clear: left;  
+margin: 20px 0 0 230px;  
+font-size:18px  
+}  
+
+
+
+
+
+
+/***********************
 FOOTER
 ***********************/
