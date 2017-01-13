@@ -54,7 +54,7 @@ div#mainHeader {
 	width: 90%;
 	font-size: 1.2em;
 	margin-top: 20px;
-}	
+}
 
 #headerHeading h2 {
 	font-family: Insolente, sans-serif;
@@ -132,15 +132,29 @@ form input {
   margin-left: 2em;
 }
 
-button {  
-clear: left;  
-margin: 20px 0 0 230px;  
-font-size:18px  
-}  
+button {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
 
 
-
-
+/***********************
+Prodcut Page
+***********************/
+#product1,
+#product2,
+#product3,
+#product4,
+#product5,
+#product6,
+#product7,
+#product8 {
+	float: left;
+    width: 30%;
+    border: 1px solid lightgray;
+    margin-left: 30px;
+}
 
 
 /***********************
