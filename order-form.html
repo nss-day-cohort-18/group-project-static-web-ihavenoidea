@@ -3,30 +3,51 @@
 
 <head>
 	<title>Order Form Page</title>
+	<meta charset="UTF-8">
+	<title>Rubber Baby Ducky Bumpers</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="javascript/validate.js" type="text/javascript"></script>
 </head>
 
-<body>
-	<form action="index.html" method="post">
-        
-		<legend><h1>Order Ducks</h1></legend>
+<body onload="document.myForm.name.focus();">
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Product</li>
+			<li>Order</li>
+		</ul>
+	</nav>
+
+	<form name="myForm" onsubmit="return formValidation();" action=" " method="post">
+    	  
+		<legend><h1>Duck order form</h1></legend>
 	        
 		<label for="name">Name:</label>
-		<input type="text" id="name" name="user_name"><br>
-	          
-		<label for="mail">Email:</label>
-		<input type="email" id="mail" name="user_email"><br>
+		<input type="text" placeholder="your name" id="name" name="user_name"><br>
+	         
+	<div class="validate">       
+		<label for="email">Email:</label>
+		<input required type="email" value=" " placeholder="example@email.com" id="email" name=" ">
+		<br>
 
-		<label for="phone">Daytime Phone #:</label>
-		<input type="tel" name="user_phone"><br>
-
+		<label for="tel">Daytime Phone #:</label>
+		<input required type="tel" placeholder="(xxx) xxx-xxxx" id="tel" name="user_phone">
+		<br>
+	</div>
 		<label for="company-name">Company/Organization name:</label>
-		<input type="text" name="company-name"><br>
+		<input type="text" placeholder="enter company/organization name" name=" ">
+		<br>
 
 		<label for="org-type">How many ducks will you be ordering?</label><br>
-		<input type="radio" name="0-250" value="rock">1 - 250<br>
-		<input type="radio" name="250-500" value="for-profit">250 - 500<br>
-		<input type="radio" name="500-100" value="other">500 - 1,000<br>
-		<input type="radio" name="over1000" value="other">Over 1,000<br>
+		<input type="radio" name="0-250" value="rock">1 - 250 ducks<br>
+		<input type="radio" name="250-500" value="for-profit">250 - 500 ducks<br>
+		<input type="radio" name="500-100" value="other">500 - 1,000 ducks<br>
+		<input type="radio" name="over1000" value="other">Over 1,000 ducks<br>
 		          
 		<label for="job">Order type:</label>
 		<select id="job" name="user_job">
@@ -42,11 +63,17 @@
 		<input type="radio" name="other" value="other">Other<br>
 
 		<label for="order-info">Anything else we should know about your order?:</label>
-		<textarea name="user_bio"></textarea><br>
+		<textarea name="order-info"></textarea>
+		<br>
 	         
 		<button type="submit">Submit</button>
 	      
 	</form>
-    
+
+<script type="text/javascript">
+var frmvalidator  = new Validator("myForm");	
+frmvalidator.addValidation("email","email","Please enter a valid email address");
+</script>
+
 </body>
 </html>
