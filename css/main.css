@@ -35,6 +35,7 @@ HEADER
 
 div#mainHeader {
 	position: relative;
+	margin-top: 15px;
 }
 
 #headerHeading {
@@ -45,26 +46,26 @@ div#mainHeader {
 	font-family: Insolente, sans-serif;
 	color: #FF7800;
 	position: absolute;
-	top: 30px;
+	top: 5px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	font-size: 5em;
-	margin-top: 25px;
+	font-size: 1.2em;
+	margin-top: 20px;
 }	
 
 #headerHeading h2 {
 	font-family: Insolente, sans-serif;
 	color: #FF7800;
 	position: absolute;
-	top: 170px;
+	top: 35px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 #headerImage {
@@ -86,13 +87,14 @@ NAVIGATION
 
 nav {
   padding: 10px 0;
-  margin: 20px 0 0;
+  margin-top: 20px;
 }
 
 nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
+  width: 75%
 }
 
 nav li {
@@ -105,6 +107,9 @@ nav li {
 /***********************
 INDEX
 ***********************/
+ul#indexNav {
+	margin: 0 auto;
+}
 
 #values {
 	width: 85%;
