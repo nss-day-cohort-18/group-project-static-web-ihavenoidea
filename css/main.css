@@ -117,6 +117,14 @@ INDEX
 }
 
 /***********************
+Prodcut Page
+***********************/
+#productCard {
+	display: inline-block;
+  	width: 30%;
+}
+
+/***********************
 ORDER FORM
 ***********************/
 
@@ -182,30 +190,4 @@ button {
   margin-top: 2em;
   margin-bottom: 10px;
   margin-left: 25%
-}
-
-
-
-/***********************
-Prodcut Page
-***********************/
-#productCard h3 {
-	font-size: 5em;
-}
-
-/***********************
-About Page
-***********************/
-ul {
-	list-style: none;
-}
-
-
-/***********************
-FOOTER
-***********************/
-footer {
-	text-align: center;
-	clear: both;
-	padding-top: 50px;
 }
