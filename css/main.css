@@ -5,6 +5,13 @@ GENERAL
 body {
 	font-family: 'Open Sans', sans-serif;
 	width: 90%;
+	text-align: center;
+	margin:0 auto;
+	background-color: #FFFF00;
+}
+
+div {
+	margin:0 auto;
 }
 
 p {
@@ -26,26 +33,87 @@ img {
 HEADER
 ***********************/
 
+div#mainHeader {
+	position: relative;
+	margin-top: 15px;
+}
+
+#headerHeading {
+	z-index: 1;
+}
+
+#headerHeading h1 {
+	font-family: Insolente, sans-serif;
+	color: #FF7800;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-size: 1.2em;
+	margin-top: 20px;
+}	
+
+#headerHeading h2 {
+	font-family: Insolente, sans-serif;
+	color: #FF7800;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+
+#headerImage {
+	z-index: -1;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	/*opacity:0.6;*/
+}
+
+
+/***********************
+NAVIGATION
+***********************/
+
 nav {
   padding: 10px 0;
-  margin: 20px 0 0;
+  margin-top: 20px;
 }
 
 nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
+  width: 75%
 }
 
 nav li {
-  background-color: #AA4C39;
+  background-color: #FF7800;
   margin-bottom: 10px;
   padding: 10px 0;
+  color: white;
 }
 
 /***********************
 INDEX
 ***********************/
+ul#indexNav {
+	margin: 0 auto;
+}
+
+#values {
+	width: 85%;
+}
 
 /***********************
 ORDER FORM
