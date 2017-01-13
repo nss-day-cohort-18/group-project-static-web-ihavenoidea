@@ -129,6 +129,9 @@ abbr[title] {
 }
 
 button {
+  border: ;
+  overflow: visible;
+  text-transform: none;
   background-color: blue;
   font: inherit;
   margin: auto;
@@ -338,6 +341,11 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
 
 select { /* 1 */
   text-transform: none;
@@ -402,7 +410,7 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 
-[type="checkbox"],
+
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
