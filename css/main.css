@@ -33,7 +33,7 @@ img {
 HEADER
 ***********************/
 
-div#mainHeader {
+#mainHeader {
 	position: relative;
 	margin-top: 15px;
 }
@@ -54,7 +54,7 @@ div#mainHeader {
 	width: 90%;
 	font-size: 1.2em;
 	margin-top: 20px;
-}	
+}
 
 #headerHeading h2 {
 	font-family: Insolente, sans-serif;
@@ -87,15 +87,14 @@ NAVIGATION
 
 nav {
   padding: 10px 0;
-  margin-top: 20px;
+  margin: 20px 0 0;
 }
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 auto;
   padding: 0;
-  width: 75%
-  margin: auto;
+  width: 75%;
 }
 
 nav li {
@@ -103,13 +102,13 @@ nav li {
   margin-bottom: 10px;
   padding: 10px 0;
   color: white;
-  max-width: 50%;
+
 }
 
 /***********************
 INDEX
 ***********************/
-ul#indexNav {
+#indexNav {
 	margin: 0 auto;
 }
 
@@ -163,7 +162,6 @@ form label {
 	padding-bottom: 1em;
 }
 
-
 #textarea {
 	width: 70%;
 	height: 5em;
@@ -188,11 +186,26 @@ button {
 
 
 
+/***********************
+Prodcut Page
+***********************/
+#productCard h3 {
+	font-size: 5em;
+}
 
-
-
+/***********************
+About Page
+***********************/
+ul {
+	list-style: none;
+}
 
 
 /***********************
 FOOTER
 ***********************/
+footer {
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+}
