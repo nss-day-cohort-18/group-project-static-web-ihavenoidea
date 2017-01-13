@@ -88,6 +88,7 @@ NAVIGATION
 nav {
   padding: 10px 0;
   margin-top: 20px;
+
 }
 
 nav ul {
@@ -95,6 +96,7 @@ nav ul {
   margin: 0 10px;
   padding: 0;
   width: 75%
+  margin: auto;
 }
 
 nav li {
@@ -102,6 +104,8 @@ nav li {
   margin-bottom: 10px;
   padding: 10px 0;
   color: white;
+  max-width: 75%
+
 }
 
 /***********************
@@ -119,6 +123,21 @@ ul#indexNav {
 ORDER FORM
 ***********************/
 
+form {
+	text-align: left;
+	font-size: .8em;
+	max-width: 75%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	background: lightgrey;
+}
+
+form . {
+	align-self: center;
+}
+
 form input, select {
   float: auto;
   width: 50%;
@@ -127,16 +146,27 @@ form input, select {
   padding: 1em;
   margin: 1em;
 
-form input {
-  text-align: center;
-  margin-left: 2em;
+form.input 
+
+#textarea {
+	width: 50%;
 }
 
 button {
-clear: left;
-margin: 20px 0 0 230px;
-font-size:18px
+  -text-kit: none;
+  padding: 19px 39px 18px 39px;
+  background-color: blue;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
 }
+
 
 
 /***********************
