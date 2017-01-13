@@ -146,11 +146,18 @@ Product Page
 ORDER FORM
 ***********************/
 
+form h1  {
+	max-width: 100%;
+	text-align: center !important;
+	margin: .67em 0 .67em 0;
+	font-size: 1.4em;
+}
+
 form {
 	text-align: left;
 	border: 4px solid black;
-	font-size: .8em;
-	max-width: 60%;
+	font-size: 1em;
+	max-width: 80%;
 	margin: 10px auto;
 	padding: 10px 20px;
 	background: #f4f7f8;
@@ -159,13 +166,17 @@ form {
 	justify-content: auto;
 }
 
+#order-type {
+	background-color: white;
+}
+
 form input {
 	margin-bottom: 2em;
 }
 
 form input, select {
   float: auto;
-  width: 50%;
+  width: 80%;
   text-align: left;
   line-height: 1em;
   padding: 1em;
@@ -176,21 +187,28 @@ form input[type="checkbox"] {
 	text-align: left;
 	vertical-align: middle;
 	width: 15px;
-	border-radius: 5px;
+	border-radius: 10px;
 	line-height: 2px;
-	margin: 5px;
+	margin: 4px;
 	height: 30px;
 	border: 2px solid black;
 }
+
+
 
 form label {
 	line-height: 2em;
 	padding-bottom: 1em;
 }
 
+form option {
+	background: visible;
+}
+
 #textarea {
-	width: 70%;
+	width: 80%;
 	height: 5em;
+	margin-left: 20px;
 	align-content: center;
 }
 
