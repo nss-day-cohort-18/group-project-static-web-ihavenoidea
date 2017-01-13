@@ -14,6 +14,23 @@
 
 <body onload="document.myForm.name.focus();">
 
+<header>
+		<div id="mainHeader">
+			<div id="headerHeading">
+				<h1>Rubber Baby Ducky Bumpers</h1>
+				<h2>Award-Winning Rubber Ducks</h2>
+			</div>
+			<div id="headerImage">
+				<img src="img/ducks-in-a-row.jpg" alt="Image of Rubber Ducks in a Row">
+			</div>
+		</div>
+		<div style="visibility:hidden;">
+			<div>
+				<img src="img/ducks-in-a-row.jpg" alt="Image of Rubber Ducks in a Row">
+			</div>
+		</div>
+	
+
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -22,34 +39,35 @@
 			<li><a href="order-form.html">Order</a></li>
 		</ul>
 	</nav>
+	</header>
 
 	<form name="myForm" id="order-form" onsubmit="return formValidation();" action=" " method="post">
     	  
 		<legend><h1>Duck order form</h1></legend>
 	        
-		<label for="name">Name:</label><br>
+		<label for="name"><strong>1. Name:</strong></label><br>
 		<input type="text" placeholder="your name" id="name" name="user_name"><br>
 	         
 		<div class="validate">       
-			<label for="email">Email:</label><br>
+			<label for="email"><strong>2. Email:</strong></label><br>
 			<input required type="email" value=" " placeholder="example@email.com" id="email" name="email">
 			<br>
 
-			<label for="tel">Daytime Phone #:</label>
+			<label for="tel"><strong>3. Daytime Phone #:</strong></label><br>
 			<input required type="tel" placeholder="(xxx) xxx-xxxx" id="tel" name="user_phone">
 			<br>
 		</div>
-			<label for="company-name">Company/Organization name:</label>
+			<label for="company-name"><strong>4. Company/Organization name:</strong></label><br>
 			<input type="text" placeholder="company / organization name" name=" ">
 			<br>
 
-		<label for="org-type">How many ducks will you be ordering?</label><br>
-		<input type="radio" name="0-250" value="rock">1 - 250 ducks<br>
-		<input type="radio" name="250-500" value="for-profit">250 - 500 ducks<br>
-		<input type="radio" name="500-100" value="other">500 - 1,000 ducks<br>
-		<input type="radio" name="over1000" value="other">Over 1,000 ducks<br>
+		<label for="org-type"><strong>5. How many ducks will you be ordering?</strong></label><br>
+		<input type="checkbox" name="0-250" value="rock">1 - 250 ducks<br>
+		<input type="checkbox" name="250-500" value="for-profit">250 - 500 ducks<br>
+		<input type="checkbox" name="500-100" value="other">500 - 1,000 ducks<br>
+		<input type="checkbox" name="over1000" value="other">Over 1,000 ducks<br>
 		          
-		<label for="job">Order type:</label>
+		<label for="job"><strong>6. Order type:</strong></label><br>
 		<select id="job" name="user_job">
 			<option selected disabled>Order options</option>
 			<option value="reg-order">Order one of our award-winning duck designs</option>
@@ -57,12 +75,12 @@
 			<option value="customer-design-orders">Submit your own duck design and we will produce your ducks!</option>
 		</select><br>
 
-		<label for="org-type">Organization Type:</label><br>
-		<input type="radio" name="non-profit" value="rock">Non-Profit Organization<br>
-		<input type="radio" name="for-profit" value="for-profit">For Profit Organization<br>
-		<input type="radio" name="other" value="other">Other<br>
+		<label for="org-type"><strong>7. Organization Type:</strong></label><br>
+		<input type="checkbox" name="non-profit" value="rock">Non-Profit Organization<br>
+		<input type="checkbox" name="for-profit" value="for-profit">For Profit Organization<br>
+		<input type="checkbox" name="other" value="other">Other<br>
 
-		<label for="order-info">Anything else we should know about your order?:</label><br>
+		<label for="order-info"><strong>8. Anything else we should know about your order?:</strong></label><br>
 		<textarea name="order-info" id="textarea"></textarea>
 		<br>
 	         
