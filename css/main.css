@@ -1,0 +1,98 @@
+/***********************
+GENERAL
+***********************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 90%;
+	text-align: center;
+}
+
+div {
+	margin:0 auto;
+}
+
+p {
+  text-align: justify;
+  padding: 0 5px;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/***********************
+HEADER
+***********************/
+
+#headerImage {
+	z-index: -100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	opacity:0.6;
+}
+
+#headerHeading h1 {
+	z-index: 100;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-size: 1.5em;
+	margin-top: 25px;
+}	
+
+#headerHeading h2 {
+	z-index: 100;
+	color: white;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.3em;
+}
+
+nav {
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  background-color: #AA4C39;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+/***********************
+INDEX
+***********************/
+
+#values {
+	width: 85%;
+}
+
+/***********************
+FOOTER
+***********************/
