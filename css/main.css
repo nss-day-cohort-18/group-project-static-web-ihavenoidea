@@ -128,6 +128,14 @@ div#value1, div#value2, div#value3 {
 }
 
 /***********************
+Prodcut Page
+***********************/
+#productCard {
+	display: inline-block;
+  	width: 30%;
+}
+
+/***********************
 ORDER FORM
 ***********************/
 
@@ -195,14 +203,10 @@ button {
   margin-left: 25%
 }
 
-
-
 /***********************
 Product Page
 ***********************/
-#productCard h3 {
-	font-size: 5em;
-}
+
 
 /***********************
 About Page
