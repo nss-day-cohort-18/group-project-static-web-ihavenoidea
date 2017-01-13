@@ -143,6 +143,14 @@ Product Page
 }
 
 /***********************
+Footer
+***********************/
+footer p {
+	text-align: center;
+	
+}
+
+/***********************
 ORDER FORM
 ***********************/
 
@@ -181,7 +189,7 @@ form input, select {
   line-height: 1em;
   padding: 1em;
   margin: 1em;
-} 
+}
 
 form input[type="checkbox"] {
 	text-align: left;
