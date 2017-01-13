@@ -16,32 +16,32 @@
 
 	<nav>
 		<ul>
-			<li>Home</li>
-			<li>About</li>
-			<li>Product</li>
-			<li>Order</li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="products.html">Product</a></li>
+			<li><a href="order-form.html">Order</a></li>
 		</ul>
 	</nav>
 
-	<form name="myForm" onsubmit="return formValidation();" action=" " method="post">
+	<form name="myForm" id="order-form" onsubmit="return formValidation();" action=" " method="post">
     	  
 		<legend><h1>Duck order form</h1></legend>
 	        
-		<label for="name">Name:</label>
+		<label for="name">Name:</label><br>
 		<input type="text" placeholder="your name" id="name" name="user_name"><br>
 	         
-	<div class="validate">       
-		<label for="email">Email:</label>
-		<input required type="email" value=" " placeholder="example@email.com" id="email" name=" ">
-		<br>
+		<div class="validate">       
+			<label for="email">Email:</label><br>
+			<input required type="email" value=" " placeholder="example@email.com" id="email" name="email">
+			<br>
 
-		<label for="tel">Daytime Phone #:</label>
-		<input required type="tel" placeholder="(xxx) xxx-xxxx" id="tel" name="user_phone">
-		<br>
-	</div>
-		<label for="company-name">Company/Organization name:</label>
-		<input type="text" placeholder="enter company/organization name" name=" ">
-		<br>
+			<label for="tel">Daytime Phone #:</label>
+			<input required type="tel" placeholder="(xxx) xxx-xxxx" id="tel" name="user_phone">
+			<br>
+		</div>
+			<label for="company-name">Company/Organization name:</label>
+			<input type="text" placeholder="company / organization name" name=" ">
+			<br>
 
 		<label for="org-type">How many ducks will you be ordering?</label><br>
 		<input type="radio" name="0-250" value="rock">1 - 250 ducks<br>
@@ -62,11 +62,11 @@
 		<input type="radio" name="for-profit" value="for-profit">For Profit Organization<br>
 		<input type="radio" name="other" value="other">Other<br>
 
-		<label for="order-info">Anything else we should know about your order?:</label>
-		<textarea name="order-info"></textarea>
+		<label for="order-info">Anything else we should know about your order?:</label><br>
+		<textarea name="order-info" id="textarea"></textarea>
 		<br>
 	         
-		<button type="submit">Submit</button>
+		<button id="button" type="submit">Submit</button>
 	      
 	</form>
 
