@@ -117,11 +117,19 @@ INDEX
 }
 
 /***********************
-Prodcut Page
+Product Page
 ***********************/
 #productCard {
 	display: inline-block;
   	width: 30%;
+}
+
+/***********************
+Footer
+***********************/
+footer p {
+	text-align: center;
+	
 }
 
 /***********************
@@ -152,7 +160,7 @@ form input, select {
   line-height: 1em;
   padding: 1em;
   margin: 1em;
-} 
+}
 
 form input[type="checkbox"] {
 	text-align: left;
