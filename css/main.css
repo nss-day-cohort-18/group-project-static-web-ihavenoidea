@@ -23,6 +23,13 @@ p {
 
 a {
   text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+a:hover {
+	display: block;
+	color:yellow;
 }
 
 img {
@@ -52,7 +59,7 @@ HEADER
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin-top: 20px;
 }
 
@@ -77,7 +84,6 @@ HEADER
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	/*opacity:0.6;*/
 }
 
 
@@ -114,6 +120,11 @@ INDEX
 
 #values {
 	width: 85%;
+}
+
+div#value1, div#value2, div#value3 {
+	border-top: solid 3px #FF7800;
+	padding-top: 15px;
 }
 
 /***********************
@@ -190,4 +201,25 @@ button {
   margin-top: 2em;
   margin-bottom: 10px;
   margin-left: 25%
+}
+
+/***********************
+Product Page
+***********************/
+
+
+/***********************
+About Page
+***********************/
+ul {
+	list-style: none;
+}
+
+
+/***********************
+FOOTER
+***********************/
+footer {
+	border-top: 2px solid #FF7800;
+	padding-top: 5px;
 }
