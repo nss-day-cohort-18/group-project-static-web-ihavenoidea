@@ -1,0 +1,52 @@
+/***********************
+GENERAL
+***********************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 90%;
+}
+
+p {
+  text-align: justify;
+  padding: 0 5px;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/***********************
+HEADER
+***********************/
+
+nav {
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  background-color: #AA4C39;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+/***********************
+INDEX
+***********************/
+
+/***********************
+FOOTER
+***********************/
