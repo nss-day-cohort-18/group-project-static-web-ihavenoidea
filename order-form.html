@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Order Form Page</title>
+	<title>Order Ducks</title>
 	<meta charset="UTF-8">
 	<title>Rubber Baby Ducky Bumpers</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -29,8 +29,6 @@
 				<img src="img/ducks-in-a-row.jpg" alt="Image of Rubber Ducks in a Row">
 			</div>
 		</div>
-	
-
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -45,27 +43,24 @@
     	  
 		<legend><h1 id="formtitle">Rubber Baby Ducky Bumpers order form:</h1></legend>
 	        
-		<label for="name"><strong>1. Name:</strong></label><br>
-		<input type="text" placeholder="your name" id="name" name="user_name"><br>
-	         
-		<div class="validate">       
+		<div class="validate">
+			<label for="name"><strong>1. Name:</strong></label><br>
+			<input required="" type="text" placeholder="your name" id="name" name="user_name"><br>	                
+			
 			<label for="email"><strong>2. Email:</strong></label><br>
-			<input required type="email" value=" " placeholder="example@email.com" id="email" name="email">
-			<br>
-
+			<input required type="email" value=" " placeholder="example@email.com" id="email" name="email"><br>
+			
 			<label for="tel"><strong>3. Daytime Phone #:</strong></label><br>
-			<input required type="tel" placeholder="(xxx) xxx-xxxx" id="tel" name="user_phone">
-			<br>
+			<input required type="tel" placeholder="(xxx) xxx-xxxx" id="tel" name="user_phone"><br>
 		</div>
 			<label for="company-name"><strong>4. Company / Organization name:</strong></label><br>
-			<input type="text" placeholder="your company / organization name" name=" ">
-			<br>
+			<input type="text" placeholder="your company / organization name" name=" "><br>
 
 		<label for="org-type"><strong>5. How many ducks do you expect to be ordering?:</strong></label><br>
-		<input type="checkbox" name="0-250" value="rock">1 - 250 ducks<br>
-		<input type="checkbox" name="250-500" value="for-profit">250 - 500 ducks<br>
-		<input type="checkbox" name="500-100" value="other">500 - 1,000 ducks<br>
-		<input type="checkbox" name="over1000" value="other">Over 1,000 ducks<br>
+		<input type="checkbox" name="0-250" value="0-250">1 - 250 ducks<br>
+		<input type="checkbox" name="250-500" value="50-500">250 - 500 ducks<br>
+		<input type="checkbox" name="500-100" value="500-100">500 - 1,000 ducks<br>
+		<input type="checkbox" name="over1000" value="over1000">Over 1,000 ducks<br>
 		          
 		<label for="order-type"><strong>6. Your order type:</strong></label><br>
 		<select id="order-type" name="user_job">
@@ -94,4 +89,10 @@ frmvalidator.addValidation("email","email","Please enter a valid email address")
 </script>
 
 </body>
+
+<footer>
+	<a href="http://twitter.com/"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon" height="42" width="42"></a>
+	<a href="https://facebook.com/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon" height="42" width="42"></a>
+	<p>&copy; 2017 Rubber Baby Ducky Bumpers</p>
+</footer>
 </html>
