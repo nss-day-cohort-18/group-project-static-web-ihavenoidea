@@ -45,7 +45,7 @@ var ducks = [
 	name: "Variety Pack",
 	description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis natus dignissimos saepe accusantium blanditiis iure, odit, mollitia repudiandae tenetur rem officiis, animi necessitatibus alias beatae nemo laudantium exercitationem magnam ratione!",
 	price: "Please Contact Us for Pricing",
-	URL: "img/ducks-in-a-row.jpg"
+	URL: "img/ducks-in-a-stream.jpg"
 	}
 ];
 
