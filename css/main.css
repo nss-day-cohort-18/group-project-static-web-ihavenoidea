@@ -130,25 +130,23 @@ div#value1, div#value2, div#value3 {
 /***********************
 Product Page
 ***********************/
-#productCard0 {
+#productCard0,
+#productCard1,
+#productCard2,
+#productCard3,
+#productCard4,
+#productCard5,
+#productCard6,
+#productCard7 {
 	display: inline-block;
-	float: left;
-	width: 45%;
+	max-width: 30%;
+	border: 1px solid #FF7800;
+	margin: 10px;
+	margin-left: 30px;
+	vertical-align: top;
+	padding: 5px;
 }
 
-#productCard1 {
-	display: inline-block;
-	float: right;
-	width: 45%;
-}
-
-/***********************
-Footer
-***********************/
-footer p {
-	text-align: center;
-	
-}
 
 /***********************
 ORDER FORM
@@ -249,13 +247,19 @@ ul {
 FOOTER
 ***********************/
 footer {
+	clear:both;
 	border-top: 2px solid #FF7800;
 	padding-top: 5px;
+
 }
 
 #footerLogos {
 	padding-top: 0;
 }
+
+footer p {
+	text-align: center;
+
 
 /***********************
 MEDIA QUERIES
