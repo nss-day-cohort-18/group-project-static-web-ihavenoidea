@@ -61,6 +61,7 @@ HEADER
 	margin-right: auto;
 	width: 90%;
 	margin-top: 20px;
+	font-size: 1em;
 }
 
 #headerHeading h2 {
@@ -72,6 +73,7 @@ HEADER
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 1em;
 }
 
 #headerImage {
@@ -331,13 +333,16 @@ MEDIA QUERIES
 		padding: 10px;
 	}
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 568px) {
 	
-	h1 {
-		font-size: 1.1em;
+	#headerHeading h1 {
+		display: block;
+		font-size: 2em;
+		margin-bottom: 10px;
 	}
 
-	h2 {
-		font-size: 1em;
+	#headerHeading h2 {
+		display: block;
+		font-size: 1.5em;
 	}
 }
