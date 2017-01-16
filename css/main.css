@@ -236,9 +236,21 @@ button {
 /***********************
 About Page
 ***********************/
-ul {
-	list-style-type: none;
+.about-nav {
+	color: black;
 }
+
+.about.nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+.about-nav:hover {
+	display: block;
+	color: #FF7800;
+}
+
 
 
 /***********************
