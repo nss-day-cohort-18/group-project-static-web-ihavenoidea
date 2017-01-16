@@ -240,10 +240,14 @@ About Page
 	color: black;
 }
 
-.about.nav ul {
-	list-style: none;
-	margin: 0 10px;
+#about-nav li {
+	list-style-type: none;
 	padding: 0;
+	text-align: center;
+}
+
+ul#about-nav {
+	padding-left: 0;
 }
 
 .about-nav:hover {
@@ -251,6 +255,23 @@ About Page
 	color: #FF7800;
 }
 
+a#contact-us {
+	color: black;
+	padding: 0 0;
+	display: block;
+	max-width: 15%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+div#contact-div {
+	margin-bottom: 15px;
+}
+
+a#contact-us:hover {
+	color: #FF7800;
+}
 
 
 /***********************
