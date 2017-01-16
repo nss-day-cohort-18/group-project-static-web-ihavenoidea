@@ -24,6 +24,7 @@ p {
 a {
   text-decoration: none;
   color: white;
+  display: inline-block;
   width: 100%;
 }
 
@@ -59,7 +60,6 @@ HEADER
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	font-size: 1.1em;
 	margin-top: 20px;
 }
 
@@ -72,7 +72,6 @@ HEADER
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1em;
 }
 
 #headerImage {
@@ -108,7 +107,7 @@ nav li {
   margin-bottom: 10px;
   padding: 10px 0;
   color: white;
-
+  max-width: 100%;
 }
 
 /***********************
@@ -263,9 +262,50 @@ footer p {
 MEDIA QUERIES
 ***********************/
 
+@media screen and (min-width: 660px) {
 
-@media screen and (min-width: 480px) {
+	nav {
+	  padding: 10px 0;
+	  margin: 0;
+	}
+
+	nav ul {
+	  list-style: none;
+	  padding: 0;
+	  width: 100%;
+	  margin: auto;
+	}
+
+	nav li {
+	  display: inline-block;
+	  background-color: #FF7800;
+	  margin: 0 auto 10px auto;
+	  padding: 10px;
+	  color: white;
+	  width: 21%;
+	}
+
+	div.valuesBlurb {
+		width: 100%;
+	}
+
+	div#value1, div#value2, div#value3 {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 30%;
+		vertical-align: top;
+		padding: 10px;
+	}
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (max-width: 568px) {
+	
+	h1 {
+		font-size: 1.1em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
 }
