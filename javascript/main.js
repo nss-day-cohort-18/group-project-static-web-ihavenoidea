@@ -1,3 +1,4 @@
+/* Initialize and Manually Populate an Array */
 var ducks = [
 	{
 	name: "Angel Duck",
@@ -49,10 +50,15 @@ var ducks = [
 	}
 ];
 
+/* Initialize a loop, which continues for the length of the array */
 for (var i = 0; i < ducks.length; i++) {
+  /*Create Separate DOM Elements for the Data */
   var card = document.getElementById("productCard" + i);
+  /* Create a DOM Element for the Name */
   var duckName = "<h3>" + ducks[i].name + "</h3";
+  /* Populate the Element with Data */
   card.innerHTML += duckName;
+  /* Wash, Rinse, Repeat. . .*/
   var duckImage = '<img src="' + ducks[i].URL + '">';
   card.innerHTML += duckImage;
   var duckDescription = "<p>" + ducks[i].description + "</p>";
